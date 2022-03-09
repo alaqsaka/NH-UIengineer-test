@@ -16,6 +16,9 @@ import {
   Hero,
   HeroTitle,
   HeroSubTitle,
+  SearchDiv,
+  Search,
+  SearchInput,
 } from "./HeaderStyles";
 
 const Header = () => (
@@ -109,6 +112,18 @@ const Header = () => (
       <HeroSubTitle>
         Temukan artikel berisi solusi terbaik untuk segala permasalahan Anda
       </HeroSubTitle>
+      <SearchDiv>
+        <Search>
+          <SearchInput placeholder="Cari topic artikel yang ingin Anda cari ..." />
+          <Image
+            src="/search-icon.svg"
+            width={24}
+            height={24}
+            layout=""
+            alt="Search icon"
+          ></Image>
+        </Search>
+      </SearchDiv>
     </Hero>
   </Container>
 );

@@ -116,3 +116,35 @@ export const HeroSubTitle = styled.p`
   letter-spacing: 0.005em;
   color: #f5faff;
 `;
+
+export const SearchDiv = styled.div`
+  padding-bottom: 78px;
+  margin-top: 60px;
+`;
+
+export const Search = styled.div`
+  margin: 0 auto;
+  display: flex;
+
+  width: 540px;
+  height: 48px;
+  border-radius: 30px;
+  align-items: center;
+  padding: 0;
+  padding-left: 12px;
+  padding-right: 20px;
+  align-items: center;
+  border: 1px solid rgba(0, 24, 51, 0.16);
+  background: #fff;
+  color: #a9afb8;
+  font-size: 16px;
+  margin-bottom: 20px;
+`;
+
+export const SearchInput = styled.input`
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+`;
