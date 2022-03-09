@@ -16,6 +16,7 @@ export default function ButtonOrange(props, { children }) {
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
+    cursor: pointer;
   `;
 
   return <Button>{props.children}</Button>;

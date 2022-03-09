@@ -5,8 +5,9 @@ import Image from "next/image";
 export default function Blog(props) {
   // console.log("props dari blog", props);
   const BlogCard = styled.div`
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
     margin-bottom: 48px;
   `;

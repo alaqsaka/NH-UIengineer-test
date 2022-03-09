@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <Layout>
       <BlogSection />
+
       <BannerContainer />
     </Layout>
   );
