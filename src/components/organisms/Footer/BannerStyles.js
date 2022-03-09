@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const BannerContainer = styled.div`
-  margin-top: 200px;
   padding-top: 52px;
   text-align: center;
   padding-bottom: 92px;
