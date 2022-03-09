@@ -1,6 +1,15 @@
 import React from "react";
-import Header from "../components/Header/Header";
+import Header from "../components/organisms/Header/Header";
+import Footer from "../components/organisms/Footer/Footer";
+import BannerContainer from "../components/organisms/Footer/Banner";
+import { Container } from "./LayoutStyles";
 
 export const Layout = ({ children }) => {
-  return <Header />;
+  return (
+    <Container>
+      <Header />
+      <BannerContainer />
+      <Footer />
+    </Container>
+  );
 };
