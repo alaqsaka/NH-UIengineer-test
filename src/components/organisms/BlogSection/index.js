@@ -4,6 +4,7 @@ import Article from "../../molecules/Article";
 import { Articles, Articles2 } from "../../../constants/constants";
 import SubscriptionBanner from "../../molecules/SubscriptionBanner";
 import ArticlesList from "../../molecules/ArticlesLists";
+import Search from "../../atoms/Search";
 
 export default function BlogSection(props) {
   return (
@@ -15,7 +16,9 @@ export default function BlogSection(props) {
           <SubscriptionBanner />
           <ArticlesList />
         </div>
-        <div>kolom2</div>
+        <div>
+          <Search placeholder="Cari artikel blog ..." icon />
+        </div>
       </BlogDiv>
     </Container>
   );

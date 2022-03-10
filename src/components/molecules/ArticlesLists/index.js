@@ -17,6 +17,39 @@ export default function ArticlesList(props) {
           <VerticalBlogCard />
         </div>
       </Contents>
+      <Contents>
+        <div>
+          <VerticalBlogCard />
+        </div>
+        <div>
+          <VerticalBlogCard />
+        </div>
+        <div>
+          <VerticalBlogCard />
+        </div>
+      </Contents>
+      <Contents>
+        <div>
+          <VerticalBlogCard />
+        </div>
+        <div>
+          <VerticalBlogCard />
+        </div>
+        <div>
+          <VerticalBlogCard />
+        </div>
+      </Contents>
+      <Contents>
+        <div>
+          <VerticalBlogCard />
+        </div>
+        <div>
+          <VerticalBlogCard />
+        </div>
+        <div>
+          <VerticalBlogCard />
+        </div>
+      </Contents>
     </Container>
   );
 }
