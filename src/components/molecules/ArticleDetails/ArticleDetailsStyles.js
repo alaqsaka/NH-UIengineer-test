@@ -5,6 +5,7 @@ export const ArticleHeaderDiv = styled.div`
 `;
 export const ArticleBodyDiv = styled.div`
   margin-top: 36px;
+  margin-bottom: 36px;
 `;
 export const ArticleFooterDiv = styled.div`
   margin-top: 36px;

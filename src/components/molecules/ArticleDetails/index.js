@@ -3,6 +3,7 @@ import Breadcrumb from "../../atoms/BreadCrumb";
 import ArticleHeader from "../../atoms/ArticleHeader";
 import ArticleBody from "../../atoms/ArticleBody";
 import ArticleFooter from "../../atoms/ArticleFooter";
+import OutlinedButton from "../../atoms/OutlinedButton";
 import {
   ArticleHeaderDiv,
   ArticleBodyDiv,
@@ -19,6 +20,9 @@ export default function ArticleDetails(props) {
       <ArticleBodyDiv>
         <ArticleBody></ArticleBody>
       </ArticleBodyDiv>
+      <OutlinedButton>
+        Berlangganan Hosting Niagahoster Sekarang Juga!
+      </OutlinedButton>
       <ArticleFooterDiv>
         <ArticleFooter />
       </ArticleFooterDiv>
