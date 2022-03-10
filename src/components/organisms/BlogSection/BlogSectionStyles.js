@@ -4,6 +4,7 @@ export const Container = styled.div`
   padding-top: 80px;
   padding-left: 165px;
   padding-right: 165px;
+  padding-bottom: 120px;
 `;
 
 export const BlogDiv = styled.div`
@@ -44,4 +45,12 @@ export const AccordionDetailsStyles = styled.span`
 export const KategoriBlog = styled.div`
   position: sticky;
   top: 0px;
+`;
+
+export const PaginationDiv = styled.div`
+  display: flex;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 `;
