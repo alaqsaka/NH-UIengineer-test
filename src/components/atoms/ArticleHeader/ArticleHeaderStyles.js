@@ -21,10 +21,12 @@ export const Details = styled.div`
 export const Column1 = styled.div`
   display: flex;
   gap: 12px;
+  cursor: pointer;
 `;
 export const Column2 = styled.div`
   display: flex;
   gap: 12px;
+  cursor: pointer;
 `;
 
 export const Text = styled.p`

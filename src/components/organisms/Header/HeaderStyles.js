@@ -49,6 +49,7 @@ export const Div1 = styled.div`
   flex-direction: row;
   justify-content: space-around;
   width: 180px;
+  cursor: pointer;
 `;
 
 export const Div2 = styled.div`

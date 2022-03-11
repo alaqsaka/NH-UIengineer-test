@@ -16,9 +16,15 @@ const Banner = () => {
         keamanan ekstra, dan <br /> layanan dukungan teknis yang bisa diandalkan
         - semua dengan harga terjangkau!
       </BannerText>
-      <ButtonOrange height="56" width="278">
-        Mulai Sekarang
-      </ButtonOrange>
+      <a
+        href="http://niagahoster.co.id "
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ButtonOrange height="56" width="278">
+          Mulai Sekarang
+        </ButtonOrange>
+      </a>
     </BannerContainer>
   );
 };

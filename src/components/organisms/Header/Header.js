@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import {
   Container,
   Navbar,
@@ -24,15 +25,23 @@ import {
 const Header = () => (
   <Container>
     <Navbar>
-      <Div1>
-        <Image src="/Logo.svg" alt="Logo Niagahoster" width={42} height={42} />
-        <Image
-          src="/Niagahoster.svg"
-          alt="Logo Niagahoster"
-          width={115}
-          height={42}
-        />
-      </Div1>
+      <Link href="/" passHref>
+        <Div1>
+          <Image
+            src="/Logo.svg"
+            alt="Logo Niagahoster"
+            width={42}
+            height={42}
+          />
+          <Image
+            src="/Niagahoster.svg"
+            alt="Logo Niagahoster"
+            width={115}
+            height={42}
+          />
+        </Div1>
+      </Link>
+
       <Div2>
         <NavLink>Hosting</NavLink>
         <NavLink>VPS</NavLink>
