@@ -43,8 +43,11 @@ export const AccordionDetailsStyles = styled.span`
 `;
 
 export const KategoriBlog = styled.div`
-  position: sticky;
-  top: 0px;
+  div {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+  }
 `;
 
 export const PaginationDiv = styled.div`

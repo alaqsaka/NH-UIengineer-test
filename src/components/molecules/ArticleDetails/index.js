@@ -15,7 +15,9 @@ import {
 export default function ArticleDetails(props) {
   return (
     <Container>
-      <SidebarArticle>tes</SidebarArticle>
+      <SidebarArticle>
+        <div>sidebar article</div>
+      </SidebarArticle>
       <div>
         <Breadcrumb></Breadcrumb>
         <ArticleHeaderDiv>

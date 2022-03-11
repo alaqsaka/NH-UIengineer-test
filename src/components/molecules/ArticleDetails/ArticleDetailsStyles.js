@@ -22,4 +22,9 @@ export const Container = styled.div`
 
 export const SidebarArticle = styled.div`
   width: 255px;
+  div {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+  }
 `;

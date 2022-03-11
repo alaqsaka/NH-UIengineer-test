@@ -84,85 +84,87 @@ export default function BlogSection(props) {
           </PaginationDiv>
         </div>
         <KategoriBlog>
-          <Search placeholder="Cari artikel blog ..." icon />
-          <FilterDiv>
-            <h1>Kategori Blog</h1>
-            <Accordion className={classes.hideBorder}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-              >
-                Tutorial
-              </AccordionSummary>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-            </Accordion>
-            <Accordion className={classes.hideBorder}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-              >
-                Digital Marketing
-              </AccordionSummary>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-            </Accordion>
-            <Accordion className={classes.hideBorder}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-              >
-                Web Development & Design
-              </AccordionSummary>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-            </Accordion>
-            <Accordion className={classes.hideBorder}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-              >
-                Insight Bisnis
-              </AccordionSummary>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-            </Accordion>
-            <Accordion className={classes.hideBorder}>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1a-content"
-                id="panel1a-header"
-              >
-                News & Updates
-              </AccordionSummary>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-              <AccordionDetails>Tutorial</AccordionDetails>
-            </Accordion>
-          </FilterDiv>
+          <div>
+            <Search placeholder="Cari artikel blog ..." icon />
+            <FilterDiv>
+              <h1>Kategori Blog</h1>
+              <Accordion className={classes.hideBorder}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  Tutorial
+                </AccordionSummary>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+              </Accordion>
+              <Accordion className={classes.hideBorder}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  Digital Marketing
+                </AccordionSummary>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+              </Accordion>
+              <Accordion className={classes.hideBorder}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  Web Development & Design
+                </AccordionSummary>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+              </Accordion>
+              <Accordion className={classes.hideBorder}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  Insight Bisnis
+                </AccordionSummary>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+              </Accordion>
+              <Accordion className={classes.hideBorder}>
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1a-content"
+                  id="panel1a-header"
+                >
+                  News & Updates
+                </AccordionSummary>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+                <AccordionDetails>Tutorial</AccordionDetails>
+              </Accordion>
+            </FilterDiv>
+          </div>
         </KategoriBlog>
       </BlogDiv>
     </Container>
