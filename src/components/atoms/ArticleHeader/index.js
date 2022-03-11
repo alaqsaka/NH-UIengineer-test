@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import {
   Container,
@@ -10,11 +10,8 @@ import {
 } from "./ArticleHeaderStyles";
 
 export default function ArticleHeader(props) {
-  const [ShowChat, setShowChat] = useState(false);
-
   return (
     <Container>
-      {ShowChat && <div>tampilkan comments</div>}
       <Title>4+ Cara Mudah Cek IP Hosting Website</Title>
       <Details>
         <Column1>
