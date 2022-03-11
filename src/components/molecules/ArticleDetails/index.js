@@ -8,24 +8,29 @@ import {
   ArticleHeaderDiv,
   ArticleBodyDiv,
   ArticleFooterDiv,
+  Container,
+  SidebarArticle,
 } from "./ArticleDetailsStyles";
 
 export default function ArticleDetails(props) {
   return (
-    <div>
-      <Breadcrumb></Breadcrumb>
-      <ArticleHeaderDiv>
-        <ArticleHeader />
-      </ArticleHeaderDiv>
-      <ArticleBodyDiv>
-        <ArticleBody></ArticleBody>
-      </ArticleBodyDiv>
-      <OutlinedButton>
-        Berlangganan Hosting Niagahoster Sekarang Juga!
-      </OutlinedButton>
-      <ArticleFooterDiv>
-        <ArticleFooter />
-      </ArticleFooterDiv>
-    </div>
+    <Container>
+      <SidebarArticle>tes</SidebarArticle>
+      <div>
+        <Breadcrumb></Breadcrumb>
+        <ArticleHeaderDiv>
+          <ArticleHeader />
+        </ArticleHeaderDiv>
+        <ArticleBodyDiv>
+          <ArticleBody></ArticleBody>
+        </ArticleBodyDiv>
+        <OutlinedButton>
+          Berlangganan Hosting Niagahoster Sekarang Juga!
+        </OutlinedButton>
+        <ArticleFooterDiv>
+          <ArticleFooter />
+        </ArticleFooterDiv>
+      </div>
+    </Container>
   );
 }

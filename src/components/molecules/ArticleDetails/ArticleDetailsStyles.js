@@ -10,3 +10,16 @@ export const ArticleBodyDiv = styled.div`
 export const ArticleFooterDiv = styled.div`
   margin-top: 36px;
 `;
+
+export const Container = styled.div`
+  display: grid;
+  grid-template-columns: auto 100%;
+  gap: 30px;
+  div {
+    max-width: 635px;
+  }
+`;
+
+export const SidebarArticle = styled.div`
+  width: 255px;
+`;
