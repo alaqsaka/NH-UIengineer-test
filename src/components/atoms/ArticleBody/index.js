@@ -1,4 +1,5 @@
 import React from "react";
+import DaftarIsi from "../DaftarIsi";
 import {
   Container,
   SmallText,
@@ -27,6 +28,8 @@ export default function ArticleBody(props) {
         Kalau begitu, bagaimana cara mengetahui hosting IP suatu website? Yuk,
         simak panduan lengkap cara cek IP web hosting di bawah ini!
       </SmallText>
+
+      <DaftarIsi />
       <BigText>Cara Cek IP Hosting</BigText>
 
       <SmallText>

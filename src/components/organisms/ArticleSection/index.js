@@ -5,7 +5,6 @@ import ArticleDetails from "../../molecules/ArticleDetails";
 export default function ArticleSection(props) {
   return (
     <Container>
-      {/* width dipindah ke articledetails */}
       <ArticleDetails />
     </Container>
   );
