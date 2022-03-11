@@ -4,13 +4,9 @@ export const BannerContainer = styled.div`
   padding-top: 52px;
   text-align: center;
   padding-bottom: 92px;
-  background: linear-gradient(
-      249.77deg,
-      #0094ff -1.99%,
-      #007aff 43.52%,
-      #026ce8 95.86%
-    ),
-    linear-gradient(0deg, #f0f7ff, #f0f7ff);
+  background: url("/Frame 2595.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 `;
 
 export const BannerTitle = styled.h1`

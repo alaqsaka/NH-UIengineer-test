@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: url("header.svg"),
-    linear-gradient(249.77deg, #0094ff -1.99%, #007aff 43.52%, #026ce8 95.86%),
-    linear-gradient(0deg, #f0f7ff, #f0f7ff);
+  background: url("/Frame 2595.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 `;
 
 export const Navbar = styled.div`

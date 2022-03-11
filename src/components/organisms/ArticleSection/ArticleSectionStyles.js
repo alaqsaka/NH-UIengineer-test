@@ -6,4 +6,5 @@ export const Container = styled.div`
 
   text-align: center;
   width: 635px;
+  margin-bottom: 80px;
 `;

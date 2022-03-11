@@ -26,7 +26,6 @@ export default function ArticleDetails(props) {
       <ArticleFooterDiv>
         <ArticleFooter />
       </ArticleFooterDiv>
-      ArticleDetails
     </div>
   );
 }
